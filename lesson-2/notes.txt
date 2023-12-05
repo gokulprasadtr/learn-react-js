@@ -1,0 +1,31 @@
+Tranisitive dependencies ( dependencies need other dependencies and that dependencies need other dependencies)
+Every package.json has its own dependencies (dependency tree)
+package-lock.json maintaining the exact version of dependencies
+Always put package-lock.json in repo
+If you have package.json and package-lock.json, we can recreate the node modules
+Ignite the app using "npx parcel index.html"
+Just like we have npm, we have npx
+If you need to install a package use npm, if you need to execute a package use npx
+Npx build a development build
+Cdn links is not a preferred way to use / call react or react dom in our app
+Parcel doing the following things
+- dev build
+- local server
+- HMR = Hot moudle replacement
+Parcel uses file watching algorithm - written in c++.
+Parcel giving us caching so that build time is reducing every time ( Faster builds)
+Parcel will do image optimization
+Parcel Minify our file for prod build using other libraries
+Parcel will compress the file
+Consistent hashing ( Need to read)
+Do code splitting
+Differential  bundling (support old browsers)
+Diagnostic
+Error handling
+Tree shaking - remove un used code ( it will compress, mminification)
+different build for dev and prod
+npx parcel  build index.html - do prod build
+Remove main in package.json since parcel using the App.js as the entry point.
+Files are coming from dist folder if we refresh the page it was using parcel cachce at dist to update it using HMR
+Prod builds build inside dist
+browsers list - we can tell the code what version of browser should support
