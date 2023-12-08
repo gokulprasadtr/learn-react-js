@@ -1,0 +1,19 @@
+Command to build our project => npx parcel index.html
+We are wiriting a npm script to build that application instead of running the Command again and again
+We create npm scripts to start build our project => industry standards
+If we are going to new project in order to find how to run the project see package.json
+If we need to start the project we can use npm run start or npm start
+Start is a keyword reserved by npm and it will not work for other Commands
+npm start behind the scenes calls the "parcel index.html"
+React element is not a html element
+JSX is html like syntax (It is not html in javascript)
+React Element ==> it is an object ==> when we render this to dom it becomes an html element
+How to write image tag, anchor tag, image src inside js
+Two types of compponents
+JSX takes care of the injection attack
+React santisize the data
+JSX prevents cross site scripting
+We can call the functional compponents as javascript function
+Eg:- Component Title is also called as {Title()} other ways <Title/> and <Title></Title>
+Functional compponents are at the end of the day it is javascript functions
+We can write javascript expression inside {}. Example {1+2}
