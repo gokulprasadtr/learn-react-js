@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This is second lesson of react",
   "scripts": {
+    "start": "parcel index.html",
     "test": "jest"
   },
   "author": "GokulPrasad Thangavel",
