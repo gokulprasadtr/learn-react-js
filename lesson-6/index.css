@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.nav-item > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.nav-item > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.res-logo {
+  width: 100%;
+}
+
+.search {
+  padding: 10px;
+}
+
+.nav-item {
+  padding: 0px 10px;
+}
+
+.res-card {
+  width: 250px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.shimmer-contianer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 250px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.login {
+  padding: 0px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  background-color: #fc8019;
+}
+
+.filter {
+  display: flex;
+}
